@@ -37,6 +37,7 @@ public class MapTemplateController : MonoBehaviour
                 unlock = true;
             }
         }
+        //unlock = true; ToDO Uncomit for open all levels
         if (unlock)
         {
             Bg.sprite = UnlockBg;
@@ -85,5 +86,6 @@ public class MapTemplateController : MonoBehaviour
             SceneManager.instance.MapStageController.HideMap();
             SceneManager.instance.LevelController.ShowLevel();
         }
+        
     }
 }

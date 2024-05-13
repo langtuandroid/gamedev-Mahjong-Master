@@ -241,6 +241,7 @@ public class SceneManager : MonoBehaviour
             {
                 userData += "+1-0-0";
             }
+            
         }
         PlayerPrefs.SetString(USER_DATA, userData);
     }

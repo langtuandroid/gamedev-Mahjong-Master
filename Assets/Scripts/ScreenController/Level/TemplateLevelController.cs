@@ -40,6 +40,7 @@ public class TemplateLevelController : MonoBehaviour
             LevelName[i].sprite = LevelNumber[int.Parse(level.ToString()[i].ToString())];
         }
 
+        //CurrentData.IsLock = false; ToDO Uncomit for open all levels
         if (CurrentData.IsLock)
         {
             BgLevel.color = new Color(1, 1, 1, 1);
